@@ -1,0 +1,229 @@
+@media (max-width: 429px){
+
+    /* Sección de la navbar */
+
+    .navbar ul li a{
+        font-size: .625rem;
+    }
+
+    /* Sección del index */
+    .seccionTituloYBackground h1{
+        text-align: center;
+    }
+
+    .frasesPromocionales{
+        font-size: 1.4375rem;
+    }
+
+    .seccion-productos-index{
+        width: 100%;
+        height: 18.75rem;
+    }
+
+    .container-productos .container-card-playeras h3:nth-child(1){
+        font-size: 1.25rem;
+        margin-top: 1.5625rem;
+    }
+
+    .container-productos .container-card-playeras img:nth-child(2){
+        width: 100%;
+        height: 70%;
+        object-fit: contain;
+    }
+
+    .container-productos .container-card-pants h3:nth-child(1){
+        font-size: 1.25rem;
+        margin-top: 1.5625rem;
+    }
+
+    .container-productos .container-card-pants img:nth-child(2){
+        width: 100%;
+        height: 70%;
+        object-fit: contain;
+    }
+    .container-productos .container-card-tenis-index h3:nth-child(1){
+        font-size: 1.25rem;
+        margin-top: 1.5625rem;
+        margin-bottom: 1.4375rem;
+    }
+
+    .container-productos .container-card-tenis-index img:nth-child(2){
+        width: 100%;
+        height: 70%;
+        object-fit: contain;
+    }
+
+    /*Sección de la tienda*/
+
+    .section-productos{
+        width: 100%;
+        height: 18.75rem;
+    }
+    
+    .section-productos h3{
+        font-size: 30px;
+    }
+    
+    .container-productos-tienda{
+        width: 100%;
+        height: 15.625rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .cards-tienda-playeras1{
+        width: 15.625rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        object-fit: contain;
+    }
+
+    .cards-tienda-playeras1 img{
+        width: 100%;
+        height: 50%;
+        object-fit: contain;
+    }
+    
+    .cards-tienda-playeras2{
+        width: 15.625rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        object-fit: contain;
+    }
+
+    .cards-tienda-playeras3{
+        width: 15.625rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        object-fit: contain;
+    }
+    
+    .cards-tienda-playeras3 img{
+        width: 100%;
+        height: 50%;
+        object-fit: contain;
+    }
+
+    .cards-tienda-playeras2 img{
+        width: 100%;
+        height: 50%;
+        object-fit: contain;
+    }
+
+    .cards-tienda-pantalon1{
+        width: 15.625rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        object-fit: contain;
+    }
+
+    .cards-tienda-pantalon1 img{
+        width: 100%;
+        height: 50%;
+        object-fit: contain;
+    }
+    
+    .cards-tienda-pantalon2{
+        width: 15.625rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        object-fit: contain;
+    }
+
+    .cards-tienda-pantalon2 img{
+        width: 100%;
+        height: 50%;
+        object-fit: contain;
+    }
+    
+    .cards-tienda-pantalon3{
+        width: 15.625rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        object-fit: contain;
+    }
+    
+    .cards-tienda-pantalon3 img{
+        width: 100%;
+        height: 50%;
+        object-fit: contain;
+    }
+
+    .cards-tienda-tenis1{
+        width: 15.625rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        object-fit: contain;
+    }
+
+    .cards-tienda-tenis1 img{
+        width: 100%;
+        height: 50%;
+        object-fit: contain;
+    }
+    
+    .cards-tienda-tenis2{
+        width: 15.625rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        object-fit: contain;
+    }
+
+    .cards-tienda-tenis2 img{
+        width: 100%;
+        height: 50%;
+        object-fit: contain;
+    }
+    
+    .cards-tienda-tenis3{
+        width: 15.625rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        object-fit: contain;
+    }
+    
+    .cards-tienda-tenis3 img{
+        width: 100%;
+        height: 50%;
+        object-fit: contain;
+    }
+
+    .container-productos-tienda .boton{
+        font-size: .5rem;
+    }
+
+    .titulo{
+        font-size: 1.875rem;
+        margin: .9375rem 0rem;
+    }
+
+    .section-productos .titulosPrendas{
+        font-size: 1.25rem;
+    }
+
+    /*Sección del footer*/
+
+    .logos-redes img{
+        width: 1.875rem;
+        height: 1.875rem;
+    }
+}

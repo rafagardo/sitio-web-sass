@@ -1,0 +1,26 @@
+@media (max-width: 320px){
+    /* Sección del index*/
+    .seccionTituloYBackground h1{
+        font-size: 2.5rem;
+    }
+
+    .seccion-productos-index .container-productos .boton{
+        font-size: .625rem;
+    }
+
+    /*Sección de la tienda*/
+    .titulo{
+        width: 100%;
+        height: 2.5rem;
+    }
+
+    .section-productos{
+        width: 100%;
+        height: 12.5rem;
+    }
+
+    /*Sección del footer*/
+    .section-productos{
+        height: 17.1875rem;
+    }
+}
