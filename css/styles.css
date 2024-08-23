@@ -148,6 +148,233 @@
           color: black;
           border: 2px solid #008CBA; }
 
+/*CSS para la pagina Tienda*/
+.titulo {
+  width: 100%;
+  height: 3.75rem;
+  margin: 2.5rem 0rem;
+  text-align: center;
+  font-size: 3.125rem; }
+
+.section-productos {
+  width: 100%;
+  height: 31.25rem; }
+  .section-productos .titulosPrendas {
+    font-family: "Rosario", sans-serif;
+    text-align: center;
+    font-size: 30px; }
+  .section-productos .container-productos-tienda {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center; }
+    .section-productos .container-productos-tienda .cards-tienda-playeras1 {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center; }
+      .section-productos .container-productos-tienda .cards-tienda-playeras1 .boton {
+        background-color: #008CBA;
+        /* Blue */
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        transition-duration: 0.4s;
+        border-radius: 12px; }
+        .section-productos .container-productos-tienda .cards-tienda-playeras1 .boton:hover {
+          background-color: white;
+          color: black;
+          border: 2px solid #008CBA; }
+    .section-productos .container-productos-tienda .cards-tienda-playeras2 {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center; }
+      .section-productos .container-productos-tienda .cards-tienda-playeras2 .boton {
+        background-color: #008CBA;
+        /* Blue */
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        transition-duration: 0.4s;
+        border-radius: 12px; }
+        .section-productos .container-productos-tienda .cards-tienda-playeras2 .boton:hover {
+          background-color: white;
+          color: black;
+          border: 2px solid #008CBA; }
+    .section-productos .container-productos-tienda .cards-tienda-playeras3 {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center; }
+      .section-productos .container-productos-tienda .cards-tienda-playeras3 .boton {
+        background-color: #008CBA;
+        /* Blue */
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        transition-duration: 0.4s;
+        border-radius: 12px; }
+        .section-productos .container-productos-tienda .cards-tienda-playeras3 .boton:hover {
+          background-color: white;
+          color: black;
+          border: 2px solid #008CBA; }
+    .section-productos .container-productos-tienda .cards-tienda-pantalon1 {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center; }
+      .section-productos .container-productos-tienda .cards-tienda-pantalon1 .boton {
+        background-color: #008CBA;
+        /* Blue */
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        transition-duration: 0.4s;
+        border-radius: 12px; }
+        .section-productos .container-productos-tienda .cards-tienda-pantalon1 .boton:hover {
+          background-color: white;
+          color: black;
+          border: 2px solid #008CBA; }
+    .section-productos .container-productos-tienda .cards-tienda-pantalon2 {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center; }
+      .section-productos .container-productos-tienda .cards-tienda-pantalon2 .boton {
+        background-color: #008CBA;
+        /* Blue */
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        transition-duration: 0.4s;
+        border-radius: 12px; }
+        .section-productos .container-productos-tienda .cards-tienda-pantalon2 .boton:hover {
+          background-color: white;
+          color: black;
+          border: 2px solid #008CBA; }
+    .section-productos .container-productos-tienda .cards-tienda-pantalon3 {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center; }
+      .section-productos .container-productos-tienda .cards-tienda-pantalon3 .boton {
+        background-color: #008CBA;
+        /* Blue */
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        transition-duration: 0.4s;
+        border-radius: 12px; }
+        .section-productos .container-productos-tienda .cards-tienda-pantalon3 .boton:hover {
+          background-color: white;
+          color: black;
+          border: 2px solid #008CBA; }
+    .section-productos .container-productos-tienda .cards-tienda-tenis1 {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center; }
+      .section-productos .container-productos-tienda .cards-tienda-tenis1 .boton {
+        background-color: #008CBA;
+        /* Blue */
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        transition-duration: 0.4s;
+        border-radius: 12px; }
+        .section-productos .container-productos-tienda .cards-tienda-tenis1 .boton:hover {
+          background-color: white;
+          color: black;
+          border: 2px solid #008CBA; }
+    .section-productos .container-productos-tienda .cards-tienda-tenis2 {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center; }
+      .section-productos .container-productos-tienda .cards-tienda-tenis2 .boton {
+        background-color: #008CBA;
+        /* Blue */
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        transition-duration: 0.4s;
+        border-radius: 12px; }
+        .section-productos .container-productos-tienda .cards-tienda-tenis2 .boton:hover {
+          background-color: white;
+          color: black;
+          border: 2px solid #008CBA; }
+    .section-productos .container-productos-tienda .cards-tienda-tenis3 {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center; }
+      .section-productos .container-productos-tienda .cards-tienda-tenis3 .boton {
+        background-color: #008CBA;
+        /* Blue */
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        transition-duration: 0.4s;
+        border-radius: 12px; }
+        .section-productos .container-productos-tienda .cards-tienda-tenis3 .boton:hover {
+          background-color: white;
+          color: black;
+          border: 2px solid #008CBA; }
+
 /*
     Código CSS para el footer
 */
