@@ -1,0 +1,171 @@
+@charset "UTF-8";
+/*Las utilities son las primeras que tenemos que importar*/
+/*Todo lo que esta en base*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+@font-face {
+  font-family: "Rosario", sans-serif;
+  src: url("https://fonts.googleapis.com/css2?family=Rosario:ital,wght@0,300..700;1,300..700&display=swap"); }
+
+/*Todo lo que sea layout*/
+.navbar {
+  width: 100%;
+  height: 3.125rem;
+  background-color: #714185; }
+  .navbar ul {
+    list-style: none;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    padding: .75rem 0rem; }
+    .navbar ul li a {
+      font-family: "Inter", sans-serif;
+      text-decoration: none;
+      color: #DBC078;
+      text-transform: uppercase; }
+
+/*CSS para la pagina principal*/
+.seccionTituloYBackground {
+  width: 100%;
+  height: 33.8125rem;
+  background-image: url("../assets/img/backgroundSeccionUno.png"); }
+  .seccionTituloYBackground h1 {
+    display: flex;
+    justify-content: center;
+    padding-top: 15.625rem;
+    color: #4A148C;
+    font-size: 3.125rem; }
+
+.frasesPromocionales {
+  font-family: "Rosario", sans-serif;
+  font-size: 1.875rem;
+  text-align: center;
+  padding-top: 3.125rem;
+  padding-bottom: 1.875rem; }
+
+.seccion-productos-index {
+  display: flex;
+  width: 100%;
+  height: 37.5rem;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center; }
+  .seccion-productos-index .container-productos {
+    width: 30rem;
+    height: 21.875rem;
+    text-align: center;
+    position: relative;
+    padding-bottom: 1.25rem; }
+    .seccion-productos-index .container-productos .container-card-playeras {
+      width: 100%;
+      height: 70%; }
+      .seccion-productos-index .container-productos .container-card-playeras h3 {
+        padding-bottom: 1.5625rem;
+        font-size: 1.625rem; }
+      .seccion-productos-index .container-productos .container-card-playeras img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+        padding-bottom: 1.5625rem; }
+      .seccion-productos-index .container-productos .container-card-playeras .boton {
+        background-color: #008CBA;
+        /* Blue */
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        transition-duration: 0.4s;
+        border-radius: 12px; }
+        .seccion-productos-index .container-productos .container-card-playeras .boton:hover {
+          background-color: white;
+          color: black;
+          border: 2px solid #008CBA; }
+    .seccion-productos-index .container-productos .container-card-pants {
+      width: 100%;
+      height: 70%; }
+      .seccion-productos-index .container-productos .container-card-pants h3 {
+        padding-bottom: 1.5625rem;
+        font-size: 1.625rem; }
+      .seccion-productos-index .container-productos .container-card-pants img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+        padding-bottom: 1.5625rem; }
+      .seccion-productos-index .container-productos .container-card-pants .boton {
+        background-color: #008CBA;
+        /* Blue */
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        transition-duration: 0.4s;
+        border-radius: 12px; }
+        .seccion-productos-index .container-productos .container-card-pants .boton:hover {
+          background-color: white;
+          color: black;
+          border: 2px solid #008CBA; }
+    .seccion-productos-index .container-productos .container-card-tenis-index {
+      width: 100%;
+      height: 70%; }
+      .seccion-productos-index .container-productos .container-card-tenis-index h3 {
+        padding-bottom: 1.5625rem;
+        font-size: 1.625rem; }
+      .seccion-productos-index .container-productos .container-card-tenis-index img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+        padding-bottom: 1.5625rem; }
+      .seccion-productos-index .container-productos .container-card-tenis-index .boton {
+        background-color: #008CBA;
+        /* Blue */
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        transition-duration: 0.4s;
+        border-radius: 12px; }
+        .seccion-productos-index .container-productos .container-card-tenis-index .boton:hover {
+          background-color: white;
+          color: black;
+          border: 2px solid #008CBA; }
+
+/*
+    Código CSS para el footer
+*/
+footer {
+  background-color: #DBC078;
+  text-align: center; }
+
+footer p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1.25rem 0rem; }
+
+.logos-redes {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center; }
+
+/*Componentes*/
+/*Mediaquerys*/

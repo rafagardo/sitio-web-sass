@@ -1,0 +1,22 @@
+/*
+    Código CSS para el footer
+*/
+
+footer{
+    background-color: #DBC078;
+    text-align: center;
+}
+
+footer p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.25rem 0rem;
+}
+
+.logos-redes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}

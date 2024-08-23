@@ -1,0 +1,19 @@
+/*Las utilities son las primeras que tenemos que importar*/
+
+@import "./utilities/mixin";
+
+/*Todo lo que esta en base*/
+
+@import "./base/reset";
+@import "./base/fuentes";
+
+/*Todo lo que sea layout*/
+
+@import "./layout/header";
+@import "./layout/main-index";
+@import "./layout/footer";
+
+/*Componentes*/
+
+/*Mediaquerys*/
+
