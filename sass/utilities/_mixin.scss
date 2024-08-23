@@ -1,14 +1,12 @@
-@mixin imgs{
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
-    padding-bottom: 1.5625rem;
-    
-}
-
 @mixin flex{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+@mixin img-responsive{
+    width: 100%;
+    height: 50%;
+    object-fit: contain;
 }
