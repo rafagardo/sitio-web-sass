@@ -62,15 +62,14 @@
     padding-bottom: 1.25rem; }
     .seccion-productos-index .container-productos .container-card-playeras {
       width: 100%;
-      height: 70%; }
+      height: 70%;
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+      padding-bottom: 1.5625rem; }
       .seccion-productos-index .container-productos .container-card-playeras h3 {
         padding-bottom: 1.5625rem;
         font-size: 1.625rem; }
-      .seccion-productos-index .container-productos .container-card-playeras img {
-        width: 100%;
-        height: 100%;
-        object-fit: contain;
-        padding-bottom: 1.5625rem; }
       .seccion-productos-index .container-productos .container-card-playeras .boton {
         background-color: #008CBA;
         /* Blue */
@@ -91,15 +90,14 @@
           border: 2px solid #008CBA; }
     .seccion-productos-index .container-productos .container-card-pants {
       width: 100%;
-      height: 70%; }
+      height: 70%;
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+      padding-bottom: 1.5625rem; }
       .seccion-productos-index .container-productos .container-card-pants h3 {
         padding-bottom: 1.5625rem;
         font-size: 1.625rem; }
-      .seccion-productos-index .container-productos .container-card-pants img {
-        width: 100%;
-        height: 100%;
-        object-fit: contain;
-        padding-bottom: 1.5625rem; }
       .seccion-productos-index .container-productos .container-card-pants .boton {
         background-color: #008CBA;
         /* Blue */
@@ -120,15 +118,14 @@
           border: 2px solid #008CBA; }
     .seccion-productos-index .container-productos .container-card-tenis-index {
       width: 100%;
-      height: 70%; }
+      height: 70%;
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+      padding-bottom: 1.5625rem; }
       .seccion-productos-index .container-productos .container-card-tenis-index h3 {
         padding-bottom: 1.5625rem;
         font-size: 1.625rem; }
-      .seccion-productos-index .container-productos .container-card-tenis-index img {
-        width: 100%;
-        height: 100%;
-        object-fit: contain;
-        padding-bottom: 1.5625rem; }
       .seccion-productos-index .container-productos .container-card-tenis-index .boton {
         background-color: #008CBA;
         /* Blue */
@@ -675,6 +672,70 @@
       background-color: white;
       color: black;
       border: 2px solid #008CBA; }
+
+/*CSS para la pagina de nosotros*/
+.titulo {
+  width: 100%;
+  height: 3.75rem;
+  margin: 2.5rem 0rem;
+  text-align: center;
+  font-size: 3.125rem; }
+
+.nosotrosPrimeraSeccion {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: repeat(3, 532px);
+  grid-template-areas: "texto1 img1" "img2 texto2" "texto3 img3";
+  align-items: center;
+  padding: 1.25rem; }
+  .nosotrosPrimeraSeccion .article1 {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+    justify-self: center;
+    align-self: center; }
+    .nosotrosPrimeraSeccion .article1 p {
+      font-size: 1.25rem;
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+  .nosotrosPrimeraSeccion .imagen-section1 {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+    object-fit: contain;
+    justify-self: center;
+    align-self: center; }
+  .nosotrosPrimeraSeccion .article2 {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+    justify-self: center;
+    align-self: center; }
+    .nosotrosPrimeraSeccion .article2 p {
+      font-size: 1.25rem;
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+  .nosotrosPrimeraSeccion .imagen-section2 {
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+    object-fit: contain;
+    justify-self: center;
+    align-self: center; }
+  .nosotrosPrimeraSeccion .article3 {
+    grid-column: 1 / 2;
+    grid-row: 3 / 4;
+    justify-self: center;
+    align-self: center; }
+    .nosotrosPrimeraSeccion .article3 p {
+      font-size: 1.25rem;
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+  .nosotrosPrimeraSeccion .imagen-section3 {
+    grid-column: 2 / 3;
+    grid-row: 3 / 4;
+    object-fit: contain;
+    justify-self: center;
+    align-self: center; }
 
 /*
     Código CSS para el footer

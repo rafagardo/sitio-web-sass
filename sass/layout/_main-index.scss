@@ -42,12 +42,7 @@
                 padding-bottom: 1.5625rem;
                 font-size: 1.625rem;
             }
-            img{
-                width: 100%;
-                height: 100%;
-                object-fit: contain;
-                padding-bottom: 1.5625rem;
-            }
+            @include imgs;
             .boton {
                 background-color: #008CBA; /* Blue */
                 border: none;
@@ -75,12 +70,7 @@
                 padding-bottom: 1.5625rem;
                 font-size: 1.625rem;
             }
-            img{
-                width: 100%;
-                height: 100%;
-                object-fit: contain;
-                padding-bottom: 1.5625rem;
-            }
+            @include imgs;
             .boton {
                 background-color: #008CBA; /* Blue */
                 border: none;
@@ -108,12 +98,7 @@
                 padding-bottom: 1.5625rem;
                 font-size: 1.625rem;
             }
-            img{
-                width: 100%;
-                height: 100%;
-                object-fit: contain;
-                padding-bottom: 1.5625rem;
-            }
+            @include imgs;
             .boton {
                 background-color: #008CBA; /* Blue */
                 border: none;
@@ -160,10 +145,7 @@
     justify-content: space-evenly;
     align-items: center;
         .cards-tienda-playeras1{
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
+            @include flex;
             .boton {
                 background-color: #008CBA; /* Blue */
                 border: none;
@@ -185,10 +167,7 @@
             }
         }
         .cards-tienda-playeras2{
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
+            @include flex;
             .boton {
                 background-color: #008CBA; /* Blue */
                 border: none;
@@ -210,10 +189,7 @@
             }
         }
         .cards-tienda-playeras3{
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
+            @include flex;
             .boton {
                 background-color: #008CBA; /* Blue */
                 border: none;
@@ -235,10 +211,7 @@
             }
         }
         .cards-tienda-pantalon1{
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
+            @include flex;
             .boton {
                 background-color: #008CBA; /* Blue */
                 border: none;
@@ -260,10 +233,7 @@
             }
         }
         .cards-tienda-pantalon2{
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
+            @include flex;
             .boton {
                 background-color: #008CBA; /* Blue */
                 border: none;
@@ -285,10 +255,7 @@
             }
         }
         .cards-tienda-pantalon3{
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
+            @include flex;
             .boton {
                 background-color: #008CBA; /* Blue */
                 border: none;
@@ -310,10 +277,7 @@
             }
         }
         .cards-tienda-tenis1{
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
+            @include flex;
             .boton {
                 background-color: #008CBA; /* Blue */
                 border: none;
@@ -335,10 +299,7 @@
             }
         }
         .cards-tienda-tenis2{
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
+            @include flex;
             .boton {
                 background-color: #008CBA; /* Blue */
                 border: none;
@@ -360,10 +321,7 @@
             }
         }
         .cards-tienda-tenis3{
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
+            @include flex;
             .boton {
                 background-color: #008CBA; /* Blue */
                 border: none;
@@ -734,5 +692,85 @@
             color: black;
             border: 2px solid #008CBA;
         }
+    }
+}
+
+/*CSS para la pagina de nosotros*/
+
+.titulo{
+    width: 100%;
+    height: 3.75rem;
+    margin: 2.5rem 0rem;
+    text-align: center;
+    font-size: 3.125rem;
+}
+
+.nosotrosPrimeraSeccion {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(3, 532px);
+    grid-template-areas: 
+    "texto1 img1"
+    "img2 texto2"
+    "texto3 img3"
+    ;
+    align-items: center;
+    padding: 1.25rem;
+    .article1{
+        grid-column: 1 / 2;
+        grid-row: 1 / 2;
+        justify-self: center;
+        align-self: center;
+        p{
+            font-size: 1.25rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+    .imagen-section1{
+        grid-column: 2 / 3;
+        grid-row: 1 / 2;
+        object-fit: contain;
+        justify-self: center;
+        align-self: center;
+    }
+    .article2{
+        grid-column: 2 / 3;
+        grid-row: 2 / 3;
+        justify-self: center;
+        align-self: center;
+        p{
+            font-size: 1.25rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+    .imagen-section2{
+        grid-column: 1 / 2;
+        grid-row: 2 / 3;
+        object-fit: contain;
+        justify-self: center;
+        align-self: center;
+    }
+    .article3{
+        grid-column: 1 / 2;
+        grid-row: 3 / 4;
+        justify-self: center;
+        align-self: center;
+        p{
+            font-size: 1.25rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+    .imagen-section3{
+        grid-column: 2 / 3;
+        grid-row: 3 / 4;
+        object-fit: contain;
+        justify-self: center;
+        align-self: center;
     }
 }
