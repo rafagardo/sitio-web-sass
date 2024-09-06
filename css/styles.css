@@ -1205,6 +1205,232 @@ footer p {
     margin: .9375rem 0rem; }
   .section-productos .titulosPrendas {
     font-size: 1.25rem; }
+  /* Seccion del carrito */
+  .titulo {
+    font-size: 20px;
+    margin: .9375rem; }
+  .carrito1 {
+    width: 100%;
+    height: 9.375rem; }
+  .carrito1 .item1 {
+    grid-column: 1 / 2;
+    grid-row: 1 / 3;
+    justify-self: center;
+    align-self: end;
+    width: 150px;
+    height: 100px; }
+  .carrito1 h3:nth-child(2) {
+    font-size: 15px; }
+  .carrito1 h3:nth-child(4) {
+    grid-column: 3 / 4;
+    grid-row: 1 / 2;
+    justify-self: center;
+    align-self: center;
+    font-size: 15px; }
+  .carrito1 p:nth-child(3) {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+    justify-self: center;
+    align-self: center;
+    font-size: 15px; }
+  .carrito1 p:nth-child(5) {
+    grid-column: 3 / 4;
+    grid-row: 2 / 3;
+    justify-self: center;
+    align-self: center;
+    font-size: 15px; }
+  .carrito1 .boton {
+    grid-column: 4 / 5;
+    grid-row: 2 / 3;
+    justify-self: center;
+    align-self: center;
+    padding: 15px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    border-radius: 12px; }
+  .carrito2 {
+    width: 100%;
+    height: 9.375rem; }
+  .carrito2 .item2 {
+    grid-column: 1 / 2;
+    grid-row: 1 / 3;
+    justify-self: center;
+    align-self: end;
+    width: 150px;
+    height: 100px; }
+  .carrito2 h3:nth-child(2) {
+    font-size: 15px; }
+  .carrito2 h3:nth-child(4) {
+    grid-column: 3 / 4;
+    grid-row: 1 / 2;
+    justify-self: center;
+    align-self: center;
+    font-size: 15px; }
+  .carrito2 p:nth-child(3) {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+    justify-self: center;
+    align-self: center;
+    font-size: 15px; }
+  .carrito2 p:nth-child(5) {
+    grid-column: 3 / 4;
+    grid-row: 2 / 3;
+    justify-self: center;
+    align-self: center;
+    font-size: 15px; }
+  .carrito2 .boton {
+    grid-column: 4 / 5;
+    grid-row: 2 / 3;
+    justify-self: center;
+    align-self: center;
+    padding: 15px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    border-radius: 12px; }
+  .carrito3 {
+    width: 100%;
+    height: 9.375rem; }
+  .carrito3 .item3 {
+    grid-column: 1 / 2;
+    grid-row: 1 / 3;
+    justify-self: center;
+    align-self: end;
+    width: 150px;
+    height: 100px; }
+  .carrito3 h3:nth-child(2) {
+    font-size: 15px; }
+  .carrito3 h3:nth-child(4) {
+    grid-column: 3 / 4;
+    grid-row: 1 / 2;
+    justify-self: center;
+    align-self: center;
+    font-size: 15px; }
+  .carrito3 p:nth-child(3) {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+    justify-self: center;
+    align-self: center;
+    font-size: 15px; }
+  .carrito3 p:nth-child(5) {
+    grid-column: 3 / 4;
+    grid-row: 2 / 3;
+    justify-self: center;
+    align-self: center;
+    font-size: 15px; }
+  .carrito3 .boton {
+    grid-column: 4 / 5;
+    grid-row: 2 / 3;
+    justify-self: center;
+    align-self: center;
+    padding: 15px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    border-radius: 12px; }
+  .carrito4 {
+    width: 100%;
+    height: 9.375rem; }
+  .carrito4 .item4 {
+    grid-column: 1 / 2;
+    grid-row: 1 / 3;
+    justify-self: center;
+    align-self: end;
+    width: 150px;
+    height: 100px; }
+  .carrito4 h3:nth-child(2) {
+    font-size: 15px; }
+  .carrito4 h3:nth-child(4) {
+    grid-column: 3 / 4;
+    grid-row: 1 / 2;
+    justify-self: center;
+    align-self: center;
+    font-size: 15px; }
+  .carrito4 p:nth-child(3) {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+    justify-self: center;
+    align-self: center;
+    font-size: 15px; }
+  .carrito4 p:nth-child(5) {
+    grid-column: 3 / 4;
+    grid-row: 2 / 3;
+    justify-self: center;
+    align-self: center;
+    font-size: 15px; }
+  .carrito4 .boton {
+    grid-column: 4 / 5;
+    grid-row: 2 / 3;
+    justify-self: center;
+    align-self: center;
+    padding: 15px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    border-radius: 12px; }
+  .total p:nth-child(2) {
+    grid-column: 3 / 4;
+    grid-row: 1 / 2;
+    justify-self: center;
+    align-self: center;
+    font-size: 15px; }
+  /*Seccion de Nosotros*/
+  .nosotrosPrimeraSeccion .article1 p {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+    justify-self: center;
+    align-self: center;
+    font-size: 10px; }
+  .nosotrosPrimeraSeccion .imagen-section1 {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+    object-fit: contain;
+    justify-self: center;
+    align-self: center; }
+  .nosotrosPrimeraSeccion .article2 {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+    justify-self: center;
+    align-self: center; }
+  .nosotrosPrimeraSeccion .imagen-section2 {
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+    object-fit: contain;
+    justify-self: center;
+    align-self: center; }
+  .nosotrosPrimeraSeccion .article3 {
+    grid-column: 1 / 2;
+    grid-row: 3 / 4;
+    justify-self: center;
+    align-self: center; }
+  .nosotrosPrimeraSeccion .imagen-section3 {
+    grid-column: 2 / 3;
+    grid-row: 3 / 4;
+    object-fit: contain;
+    justify-self: center;
+    align-self: center; }
+  article p {
+    font-size: 1.25rem;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
   /*Sección del footer*/
   .logos-redes img {
     width: 1.875rem;
@@ -1261,6 +1487,31 @@ footer p {
   .section-productos {
     width: 100%;
     height: 12.5rem; }
+  /* Seccion del carrito */
+  .carrito1 .item1 {
+    width: 100px;
+    height: 80px; }
+  .carrito2 .item2 {
+    width: 100px;
+    height: 80px; }
+  .carrito3 .item3 {
+    width: 100px;
+    height: 80px; }
+  .carrito4 .item4 {
+    width: 100px;
+    height: 80px; }
+  .carrito1 .boton {
+    padding: 10px 8px;
+    font-size: 7px; }
+  .carrito2 .boton {
+    padding: 10px 8px;
+    font-size: 7px; }
+  .carrito3 .boton {
+    padding: 10px 8px;
+    font-size: 7px; }
+  .carrito4 .boton {
+    padding: 10px 8px;
+    font-size: 7px; }
   /*Sección del footer*/
   .section-productos {
     height: 17.1875rem; } }
